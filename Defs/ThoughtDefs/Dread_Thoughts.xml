@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--
+    The first forward-looking feeling in the set.
+
+    Everything else here is about something that already happened. This is about something that
+    has not. The stage comes from one ratio: what is coming against what this colony has to meet
+    it with. Both halves are things a colonist could actually notice - how rich the place looks,
+    how long it has been quiet, whether they personally are holding a weapon, whether there is
+    anything between them and the treeline.
+
+    Psychopath is deliberately NOT nullified anywhere in this mod. Fear for your own skin is not
+    an empathy, and a psychopath has as much interest in not being shot as anybody else. This is
+    the one thing in the whole set they feel exactly like everyone else.
+  -->
+  <ThoughtDef>
+    <defName>DR_Dread</defName>
+    <workerClass>Dread.ThoughtWorker_Dread</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>something is coming</label>
+        <description>Nothing has happened. Nothing is wrong. I keep checking the treeline anyway.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>we are not ready for it</label>
+        <description>I have counted what we have and counted what is out there, and I do not like the answer I keep getting.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+      <li>
+        <label>we cannot hold this place</label>
+        <description>When it comes, and it is coming, we are not going to stop it. Everybody here knows that. Nobody says it.</description>
+        <baseMoodEffect>-14</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--
+    The quiet. Separate from readiness on purpose, because it is a different feeling: this one
+    gets worse precisely when nothing is happening, which no mood in this game has ever done.
+
+    It is also true. RimWorld's storyteller really is winding up while nothing is happening, and
+    a colonist who has been here a while really has learned that.
+  -->
+  <ThoughtDef>
+    <defName>DR_TooQuiet</defName>
+    <workerClass>Dread.ThoughtWorker_TooQuiet</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>it has been quiet</label>
+        <description>Nothing for weeks. That is good. That is what we wanted. I cannot make myself enjoy it.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>too quiet for too long</label>
+        <description>It has been so long now that the quiet is the thing making me nervous. Something is owed. Somebody is going to come and collect it.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--
+    The other direction, and the reason this mod is not only a punishment.
+
+    A colonist who is armed, armoured and standing behind something feels better than a colonist
+    with nothing, in the same colony, on the same day. It is the one lever in the set that a
+    player pulls by doing the thing the game already wanted them to do.
+  -->
+  <ThoughtDef>
+    <defName>DR_Steady</defName>
+    <workerClass>Dread.ThoughtWorker_Steady</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>we can hold this</label>
+        <description>Walls up, guns loaded, everybody fed and standing. Let them come and find out.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--
+    Somebody who cannot wait. Bloodlust is normally a way of not minding the worst thing that
+    happened; here it is a way of looking forward to the worst thing that has not.
+  -->
+  <ThoughtDef>
+    <defName>DR_Sharpening</defName>
+    <workerClass>Dread.ThoughtWorker_Sharpening</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <requiredTraits>
+      <li>Bloodlust</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>something is coming</label>
+        <description>Everybody else has gone quiet and started checking the doors. I have cleaned my gun twice. I hope they are big ones.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--
+    Pointed at one person: the ones you are glad are here.
+
+    The first purely positive social thought in the set. Everything else that changes an opinion
+    in these mods takes it down. This one goes up, and it goes up for the colonist who can
+    actually fight - which is a thing the base game has never once noticed anybody doing.
+  -->
+  <ThoughtDef>
+    <defName>DR_StandsBetween</defName>
+    <thoughtClass>Dread.Thought_Relieved</thoughtClass>
+    <workerClass>Dread.ThoughtWorker_StandsBetween</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>glad they are here</label>
+        <baseOpinionOffset>12</baseOpinionOffset>
+      </li>
+      <li>
+        <label>they are what stands between us and it</label>
+        <baseOpinionOffset>22</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

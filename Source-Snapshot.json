@@ -1,0 +1,71 @@
+{
+  "name": "Dread",
+  "packageId": "dread.anticipation",
+  "assemblyName": "Dread",
+  "repositoryName": "rimworld-psyche-dread",
+  "workshopId": "3806068655",
+  "metadataVersions": [
+    "1.6",
+    "1.7"
+  ],
+  "originalSourceUnit": "Psyche Mods/Dread",
+  "sourceSnapshotUtc": "2026-10-28T17:10:11.483Z",
+  "sourceFileFingerprints": [
+    {
+      "path": "About/About.xml",
+      "sha256": "9A7F05AA01B6A037ED38C91A24F64663BB6A8BC93ECDC31EC2E8ED39A46D1C91",
+      "bytes": 3722
+    },
+    {
+      "path": "About/Preview.png",
+      "sha256": "B96AD43D6C5804E0BA4BB2673B8E842ED7D2B029A66B0C1C1323A00A692F176E",
+      "bytes": 78479
+    },
+    {
+      "path": "About/PublishedFileId.txt",
+      "sha256": "8870B888CCF0D37A8EBCBCBCEE1B90B5A0867425D96931E8078DE7F886B0A5A0",
+      "bytes": 10
+    },
+    {
+      "path": "Defs/ThoughtDefs/Dread_Thoughts.xml",
+      "sha256": "749064EDCB042D2DD77994056EE6D1B4FFA13874D5A49EE1406E1949731A5BC8",
+      "bytes": 5521
+    },
+    {
+      "path": "Source/Dread/Bridges.cs",
+      "sha256": "DEBD32444B1CE5D0FA7B62F024A7063EF77414833D0ADB78C06DC60F7D0AA7A2",
+      "bytes": 5751
+    },
+    {
+      "path": "Source/Dread/Dread.csproj",
+      "sha256": "7657D7486091F14F0D1AD4AA12C130AF10E7A8C6BECECC2127FEFEB56B508561",
+      "bytes": 1625
+    },
+    {
+      "path": "Source/Dread/DreadCore.cs",
+      "sha256": "CC38C6C2871D89F6146A2E9AA965E15CCAE5131A12D0D5212CFEB99FDF39638A",
+      "bytes": 5572
+    },
+    {
+      "path": "Source/Dread/Settings.cs",
+      "sha256": "48D6DB52E51A53F992CF42C1EE155C664FC8E568841AAF4FEB9130BBF5E29D8A",
+      "bytes": 4133
+    },
+    {
+      "path": "Source/Dread/Watch.cs",
+      "sha256": "BC396CF2AD797F9F1AB6BBAEB1D55FEB76018334ACE55B8190ED1DAB517D8FD7",
+      "bytes": 12254
+    },
+    {
+      "path": "Source/Dread/Workers.cs",
+      "sha256": "1B872DD02EC7B4F46EEECFD8CA515AB419D07750DD8365D34D3E24630D570997",
+      "bytes": 6468
+    }
+  ],
+  "stagedProjectAdjustments": [],
+  "build16": "NOT_RUN_THIS_PASS",
+  "build17": "COMPILED_AGAINST_LOCAL_1.7_API",
+  "nativePlaytest": "NOT_RUN_THIS_PUBLICATION_PASS",
+  "gameplaySourceModified": false,
+  "compiled17SHA256": "7C90C9F2D1A1FD6919AF4A6483493F53FE8A5811ABDCDD54D5D66D9FF1658C94"
+}

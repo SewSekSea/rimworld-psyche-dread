@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Dread</name>
+  <author>T&amp;B Modding</author>
+  <packageId>dread.anticipation</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Your colonists have never once looked at the treeline and felt anything about it.
+
+Everything RimWorld gives a colonist to feel is about something that already happened. They grieve, they remember, they hold grudges. Nothing in the game has ever made one of them afraid of what is coming - which is strange, because you are afraid of it constantly.
+
+This is that half.
+
+What is coming, against what we have
+One ratio, and both halves are things a colonist could actually notice.
+
+- How rich the place looks. This reads the storyteller's own figure: the number it would spend on a raid against you right now. It goes up with your wealth, which is the base game's rule, not this mod's.
+- How long it has been quiet. The longer the peace, the heavier it sits. This is the only mood in the game that gets worse while nothing is happening, and it is not superstition - the storyteller really is winding up.
+- What we have to answer with. Who is armed, who is armoured, who can actually shoot, how many are standing, and whether there is anything on the map built to shoot back.
+
+So it drops when you prepare. Arm them, armour them, put something between the colony and the treeline, and the feeling eases. It is the one thing in this set that pays you back for doing the sensible thing.
+
+Not everybody feels it the same
+Two colonists in the same colony on the same day do not agree about how bad this is.
+
+- Nerve matters. The iron-willed barely register it. The volatile and the wimps feel it much harder.
+- Being the only unarmed person in an armed colony is its own feeling, and not the same as everybody being unarmed together.
+- Somebody who is always the one sent out carries more of it.
+- Somebody who has come through something before carries less, and is worth more to everybody else than their equipment says.
+
+Glad they are here
+Colonists think better of the people who can actually fight, while there is something to fight. This is the first thing in the whole set that raises an opinion instead of lowering one.
+
+And a colonist with Bloodlust does not dread it at all. They have cleaned their gun twice and they hope the ones coming are big.
+
+A psychopath feels this exactly like everybody else
+The only mod in the set where they get no exemption. Fear for your own skin is not an empathy, and a psychopath has the same interest in not being shot as anybody.
+
+It changes nothing about how the game runs
+No Harmony patches at all. It reads the storyteller, the map and your colonists, and never writes to any of it. It cannot conflict with anything, and on a peaceful run where big threats are switched off it stands down completely rather than frightening people about raids that are not coming.
+
+Settings
+Options - Mod settings - Dread. Adjust how hard it lands, how much readiness is reckoned to be worth, and how long the quiet has to go on. Each of the four feelings can be switched off on its own.
+
+Requires Harmony. Safe to add to an existing save. RimWorld 1.6, no DLC needed.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>squad.morale</li>
+    <li>squad.ptsd</li>
+    <li>mettle.growth</li>
+    <li>resentment.fairness</li>
+    <li>shame.witness</li>
+  </loadAfter>
+</ModMetaData>
